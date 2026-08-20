@@ -1,82 +1,116 @@
-# 👋 Hola, soy Eddy
+<div align="center">
 
-**QA Engineer** enfocado en testing de APIs, automatización con Python y documentación técnica de calidad.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=2F81F7&center=true&vCenter=true&width=600&lines=QA+Engineer+%40+Mastershop;API+Testing+%7C+E2E+Automation;Finding+bugs+before+users+do+%F0%9F%90%9B" alt="Typing SVG" />
 
-Actualmente trabajando en el ecosistema **Mastershop** — plataforma e-commerce con módulos de IA conversacional, gestión de órdenes y logística.
+<br/>
+
+> *"Quality is not an act, it is a habit."* — Aristotle
+
+</div>
 
 ---
 
-## 🛠️ Stack de QA
+## 👨‍💻 Sobre mí
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+Soy **Eddy**, QA Engineer trabajando en el ecosistema **Mastershop** — plataforma e-commerce con módulos de IA conversacional, gestión de órdenes, logística y centro de ayuda inteligente.
 
-| Área | Herramientas |
+Me especializo en **testing de APIs REST**, **automatización con Python/pytest**, y en documentar bugs con la evidencia suficiente para que no quede ninguna duda.
+
+```python
+eddy = {
+    "rol":       "QA Engineer",
+    "empresa":   "Mastershop",
+    "stack":     ["pytest", "WebdriverIO", "Postman", "TypeScript", "Python"],
+    "enfoque":   ["API Testing", "E2E Automation", "Bug Reporting", "Security QA"],
+    "actitud":   "Si pasa por mis manos, tiene que funcionar."
+}
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=python,typescript,nodejs,postgres,docker,github,postman,vscode&perline=8)](https://skillicons.dev)
+
+</div>
+
+| Área | Stack |
 |---|---|
-| **Automatización API** | pytest · requests · python-dotenv |
-| **Automatización E2E** | WebdriverIO · Selenium · Cucumber (Gherkin) · TypeScript |
+| **API Automation** | Python · pytest · requests · python-dotenv |
+| **E2E Automation** | WebdriverIO · Selenium · Cucumber · TypeScript · Allure |
 | **Testing manual** | Postman · Chrome DevTools · cURL |
-| **Documentación** | Casos de prueba BRD/DRD · Bug reports · Test plans |
-| **Seguridad básica** | XSS · SQL injection · aislamiento multi-tenant |
+| **Documentación** | BRD/DRD · Bug Reports · Test Plans |
+| **Seguridad** | XSS · SQL Injection · Aislamiento multi-tenant |
 
 ---
 
-## 📁 Proyectos destacados
+## 🚀 Proyectos
 
 ### 🤖 [mastershop-agentes-ia-qa](https://github.com/eddytest365/mastershop-agentes-ia-qa)
-Suite de automatización para el módulo **Agentes IA** de Mastershop (WhatsApp Business + inbox unificado).
+**Suite de automatización** para el módulo Agentes IA (WhatsApp Business + inbox unificado).
+`53 tests` · `12 bugs documentados` · Autenticación · Idempotencia · Seguridad multi-tenant
 
-- **53 tests automatizados** cubriendo autenticación, idempotencia, seguridad multi-tenant, conversaciones, plantillas y notificaciones
-- **12 bugs reportados** con evidencia, pasos de reproducción y referencia a casos de prueba
+---
 
-### 🛒 [MasterShop-Automation](https://github.com/ByMrFireball/MasterShop-Automation) _(colaborador)_
-Suite de pruebas **End-to-End** para la plataforma Mastershop.
+### 🛒 [MasterShop-Automation](https://github.com/ByMrFireball/MasterShop-Automation) *(colaborador)*
+**Pruebas E2E** para la plataforma Mastershop.
+`WebdriverIO` · `Selenium` · `Cucumber` · `TypeScript` · `Allure Report` · Page Object Model
 
-- Stack: WebdriverIO · Selenium · Cucumber (Gherkin) · TypeScript · Allure Report
-- Estructura POM con Page Objects, Step Definitions y flujos de negocio reutilizables
-- Datos de prueba reproducibles con `@faker-js/faker`
+---
 
-### 💬 [mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center) _(colaborador)_
-Sistema de **Q&A inteligente** con búsqueda vectorial y RAG para artículos de ayuda de Mastershop.
+### 💬 [mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center) *(colaborador)*
+**Q&A inteligente** con búsqueda vectorial RAG para artículos de soporte.
+`Next.js 14` · `pgvector` · `OpenAI embeddings` · `GPT-4o Mini` · 60 artículos indexados
 
-- Stack: Next.js 14 · PostgreSQL + pgvector · OpenAI embeddings · GPT-4o Mini
-- 60 artículos markdown indexados con similitud coseno
+---
 
 ### 🤖 [EddyBot](https://github.com/eddytest365/EddyBot)
-Bot de Slack con IA que responde preguntas usando documentación local (RAG).
+**Bot de Slack con IA** que responde preguntas usando documentación local (RAG).
+`Node.js` · `ChromaDB` · `OpenAI` · Desplegado en Northflank
 
-- Stack: Node.js · JavaScript · ChromaDB · OpenAI
-- Desplegado en Northflank
+---
 
 ### 📋 [Casos-de-Testing](https://github.com/eddytest365/Casos-de-Testing)
-Documentación de casos de prueba y control de cambios para flujos de QA manual.
+Documentación de **casos de prueba** y control de cambios para flujos QA manual.
 
 ---
 
-## 🐛 Qué encuentro en mis pruebas
+## 🐛 Bugs reales que he encontrado
 
-Algunos bugs reales identificados en proyectos activos:
-
-- 🔴 Loops infinitos de 401 por falta de refresh token
-- 🔴 Mensajes multimedia (imágenes) no entregados ni renderizados en ambas direcciones
-- 🔴 Estado de error engañoso en pantalla (`META_SDK_LOAD_FAILED` vs estado real)
-- 🟠 Datos de usuario sin resolver en UI (ID numérico en lugar del nombre)
-- 🟡 Búsqueda case-sensitive que genera falsos negativos en inbox
-
----
-
-## 📊 Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=eddytest365&show_icons=true&theme=default&hide_border=true&count_private=true)
+| Severidad | Bug |
+|---|---|
+| 🔴 Crítico | Loop infinito de 401 por falta de refresh token |
+| 🔴 Crítico | Imágenes no entregadas ni renderizadas en ninguna dirección |
+| 🔴 Crítico | Estado de error engañoso (`META_SDK_LOAD_FAILED` vs estado real) |
+| 🟠 Alto | ID numérico mostrado en UI en lugar del nombre del usuario |
+| 🟡 Medio | Búsqueda case-sensitive genera falsos negativos en inbox |
 
 ---
 
-## 📬 Contacto
+## 📊 GitHub Stats
 
-¿Quieres saber más sobre mi trabajo o tienes un proyecto de QA?
+<div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU-PERFIL)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:TU-EMAIL)
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=eddytest365&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eddytest365&layout=compact&theme=github_dark&hide_border=true" />
+
+</div>
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=eddytest365&theme=github-compact&hide_border=true&area=true)
+
+</div>
+
+---
+
+<div align="center">
+
+**¿Tienes un proyecto de QA o quieres colaborar?**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU-PERFIL)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU-EMAIL)
+
+</div>
