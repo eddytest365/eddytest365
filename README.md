@@ -89,13 +89,7 @@ Documentación de **casos de prueba** y control de cambios para flujos QA manual
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=eddytest365&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
-</div>
+## 📊 Actividad
 
 <div align="center">
 
@@ -109,7 +103,7 @@ Documentación de **casos de prueba** y control de cambios para flujos QA manual
 
 **¿Tienes un proyecto de QA o quieres colaborar?**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edilberto-saenz-75015221a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eddy-saenz-021200al)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU-EMAIL)
 
 </div>
