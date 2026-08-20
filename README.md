@@ -34,6 +34,9 @@ eddy = {
 
 [![My Skills](https://skillicons.dev/icons?i=python,typescript,nodejs,postgres,docker,github,postman,vscode&perline=8)](https://skillicons.dev)
 
+![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![OpenCode](https://img.shields.io/badge/OpenCode-AI%20Coding-6366F1?style=flat&logo=openai&logoColor=white)
+
 </div>
 
 | Área | Stack |
@@ -43,6 +46,7 @@ eddy = {
 | **Testing manual** | Postman · Chrome DevTools · cURL |
 | **Documentación** | BRD/DRD · Bug Reports · Test Plans |
 | **Seguridad** | XSS · SQL Injection · Aislamiento multi-tenant |
+| **IA / LLMs** | Claude (Anthropic) · OpenCode |
 
 ---
 
