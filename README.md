@@ -93,8 +93,7 @@ Documentación de **casos de prueba** y control de cambios para flujos QA manual
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=eddytest365&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eddytest365&layout=compact&theme=github_dark&hide_border=true" />
+[![GitHub Streak](https://streak-stats.demolab.com?user=eddytest365&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 </div>
 
