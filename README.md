@@ -109,7 +109,7 @@ Documentación de **casos de prueba** y control de cambios para flujos QA manual
 
 **¿Tienes un proyecto de QA o quieres colaborar?**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU-PERFIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edilberto-saenz-75015221a/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU-EMAIL)
 
 </div>
