@@ -1,0 +1,205 @@
+<svg width="620" height="200" viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    .ninja { animation: walk 7s ease-in-out infinite; }
+    @keyframes walk {
+      0%    { transform: translateX(30px); }
+      22%   { transform: translateX(140px); }
+      42%   { transform: translateX(280px); }
+      70%   { transform: translateX(280px); }
+      84%   { transform: translateX(30px); }
+      100%  { transform: translateX(30px); }
+    }
+    .leg-l { animation: ll 0.55s ease-in-out infinite alternate; transform-origin: 13px 128px; }
+    .leg-r { animation: lr 0.55s ease-in-out infinite alternate; transform-origin: 27px 128px; }
+    @keyframes ll { from { transform: rotate(-6deg); } to { transform: rotate(6deg); } }
+    @keyframes lr { from { transform: rotate(6deg); } to { transform: rotate(-6deg); } }
+    .arm-l { animation: al 0.55s ease-in-out infinite alternate; transform-origin: 5px 99px; }
+    .arm-r { animation: ar 0.55s ease-in-out infinite alternate; transform-origin: 36px 99px; }
+    @keyframes al { from { transform: rotate(-4deg); } to { transform: rotate(4deg); } }
+    @keyframes ar { from { transform: rotate(4deg); } to { transform: rotate(-4deg); } }
+    .lupa-grp { animation: lupaAnim 7s ease-in-out infinite; }
+    @keyframes lupaAnim {
+      0%,20%  { opacity:1; transform: translateY(0); }
+      27%     { opacity:0; transform: translateY(20px); }
+      100%    { opacity:0; transform: translateY(20px); }
+    }
+    .lupa-floor { animation: lupaFloor 7s ease-in-out infinite; }
+    @keyframes lupaFloor {
+      0%,26%  { opacity:0; }
+      28%     { opacity:0.55; }
+      72%     { opacity:0.55; }
+      78%     { opacity:0; }
+      100%    { opacity:0; }
+    }
+    .sword-l { animation: sl 7s ease-in-out infinite; transform-origin: 10px 116px; }
+    @keyframes sl {
+      0%,25%   { opacity:0; transform: rotate(0deg); }
+      29%      { opacity:1; transform: rotate(-25deg); }
+      42%      { opacity:1; transform: rotate(-30deg); }
+      45%      { opacity:1; transform: rotate(98deg); }
+      48%      { opacity:1; transform: rotate(-20deg); }
+      51%      { opacity:1; transform: rotate(95deg); }
+      54%      { opacity:1; transform: rotate(-18deg); }
+      57%      { opacity:1; transform: rotate(100deg); }
+      60%      { opacity:1; transform: rotate(-22deg); }
+      63%      { opacity:1; transform: rotate(105deg); }
+      67%      { opacity:1; transform: rotate(40deg); }
+      70%      { opacity:1; transform: rotate(40deg); }
+      79%      { opacity:0; }
+      100%     { opacity:0; transform: rotate(0deg); }
+    }
+    .sword-r { animation: sr 7s ease-in-out infinite; transform-origin: 30px 116px; }
+    @keyframes sr {
+      0%,25%   { opacity:0; transform: rotate(0deg); }
+      29%      { opacity:1; transform: rotate(25deg); }
+      42%      { opacity:1; transform: rotate(30deg); }
+      45%      { opacity:1; transform: rotate(30deg); }
+      48%      { opacity:1; transform: rotate(82deg); }
+      51%      { opacity:1; transform: rotate(28deg); }
+      54%      { opacity:1; transform: rotate(80deg); }
+      57%      { opacity:1; transform: rotate(25deg); }
+      60%      { opacity:1; transform: rotate(86deg); }
+      63%      { opacity:1; transform: rotate(28deg); }
+      66%      { opacity:1; transform: rotate(90deg); }
+      70%      { opacity:1; transform: rotate(42deg); }
+      79%      { opacity:0; }
+      100%     { opacity:0; transform: rotate(0deg); }
+    }
+    .slash1 { animation: s1 7s ease-in-out infinite; }
+    .slash2 { animation: s2 7s ease-in-out infinite; }
+    .slash3 { animation: s3 7s ease-in-out infinite; }
+    .slash4 { animation: s4 7s ease-in-out infinite; }
+    @keyframes s1 { 0%,43.5%,47.5% { opacity:0; } 45% { opacity:1; } 47% { opacity:0; } 100% { opacity:0; } }
+    @keyframes s2 { 0%,47.5%,51.5% { opacity:0; } 49% { opacity:1; } 51% { opacity:0; } 100% { opacity:0; } }
+    @keyframes s3 { 0%,53%,57%     { opacity:0; } 55% { opacity:1; } 56.5% { opacity:0; } 100% { opacity:0; } }
+    @keyframes s4 { 0%,62%,67%     { opacity:0; } 64% { opacity:1; } 66%   { opacity:0; } 100% { opacity:0; } }
+    .sp1 { animation: sp1a 7s infinite; }
+    .sp2 { animation: sp2a 7s infinite; }
+    .sp3 { animation: sp3a 7s infinite; }
+    .sp4 { animation: sp4a 7s infinite; }
+    @keyframes sp1a { 0%,44%,47.5% { opacity:0; } 45.5% { opacity:1; } 47% { opacity:0; } 100% { opacity:0; } }
+    @keyframes sp2a { 0%,48%,52%   { opacity:0; } 49.5% { opacity:1; } 51% { opacity:0; } 100% { opacity:0; } }
+    @keyframes sp3a { 0%,53.5%,57% { opacity:0; } 55%   { opacity:1; } 57% { opacity:0; } 100% { opacity:0; } }
+    @keyframes sp4a { 0%,62.5%,67% { opacity:0; } 64%   { opacity:1; } 66% { opacity:0; } 100% { opacity:0; } }
+    .bug { animation: bugAnim 7s ease-in-out infinite; transform-origin: 370px 125px; }
+    @keyframes bugAnim {
+      0%,43%   { opacity:1; transform: scale(1) rotate(0deg); }
+      45%      { transform: scale(0.85) rotate(-12deg); }
+      48%      { transform: scale(1.1) rotate(10deg); }
+      51%      { transform: scale(0.85) rotate(-10deg); }
+      54%      { transform: scale(1.1) rotate(12deg); }
+      57%      { transform: scale(0.85) rotate(-8deg); }
+      60%      { transform: scale(1.1) rotate(8deg); }
+      64%      { transform: scale(1.4); opacity:1; }
+      68%      { transform: scale(0) rotate(720deg); opacity:0; }
+      82%      { opacity:0; transform:scale(0); }
+      84%      { opacity:1; transform:scale(1); }
+      100%     { opacity:1; transform:scale(1); }
+    }
+    .eyes { animation: eyeBlink 4s infinite; transform-origin: 50% 50%; }
+    @keyframes eyeBlink {
+      0%,87%,93%,100% { transform: scaleY(1); }
+      90% { transform: scaleY(0.07); }
+    }
+  </style>
+</defs>
+<rect width="620" height="200" fill="#0d1117" rx="14"/>
+<line x1="20" y1="158" x2="600" y2="158" stroke="#21262d" stroke-width="2"/>
+<g class="bug">
+  <ellipse cx="370" cy="127" rx="14" ry="9" fill="#ef4444"/>
+  <circle  cx="355" cy="127" r="7"  fill="#dc2626"/>
+  <line x1="370" y1="118" x2="370" y2="136" stroke="#b91c1c" stroke-width="1.4"/>
+  <circle cx="374" cy="123" r="2.5" fill="#b91c1c"/>
+  <circle cx="365" cy="132" r="2"   fill="#b91c1c"/>
+  <circle cx="352" cy="124" r="2" fill="white"/>
+  <circle cx="352" cy="130" r="2" fill="white"/>
+  <line x1="362" y1="118" x2="355" y2="108" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <line x1="370" y1="118" x2="370" y2="108" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <line x1="378" y1="118" x2="385" y2="108" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <line x1="362" y1="136" x2="355" y2="146" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <line x1="370" y1="136" x2="370" y2="146" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <line x1="378" y1="136" x2="385" y2="146" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+  <line x1="351" y1="121" x2="343" y2="112" stroke="#dc2626" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="342" cy="111" r="2.3" fill="#dc2626"/>
+  <line x1="351" y1="133" x2="343" y2="142" stroke="#dc2626" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="342" cy="143" r="2.3" fill="#dc2626"/>
+</g>
+<g class="slash1"><line x1="348" y1="108" x2="392" y2="146" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/></g>
+<g class="slash2"><line x1="392" y1="108" x2="348" y2="146" stroke="#f97316" stroke-width="4" stroke-linecap="round"/></g>
+<g class="slash3"><line x1="345" y1="112" x2="395" y2="142" stroke="#fbbf24" stroke-width="3.5" stroke-linecap="round"/></g>
+<g class="slash4">
+  <line x1="395" y1="110" x2="345" y2="144" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  <line x1="345" y1="110" x2="395" y2="144" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="sp1"><text x="336" y="104" font-size="15">&#x26A1;</text></g>
+<g class="sp2"><text x="387" y="103" font-size="14">&#x26A1;</text><text x="330" y="148" font-size="10" fill="#fbbf24">&#x2736;</text></g>
+<g class="sp3"><text x="335" y="106" font-size="14">&#x26A1;</text><text x="390" y="150" font-size="10" fill="#f97316">&#x2736;</text></g>
+<g class="sp4"><text x="332" y="105" font-size="15">&#x26A1;</text><text x="393" y="105" font-size="15">&#x26A1;</text><text x="362" y="98" font-size="11" fill="#fde68a">&#x2605;</text></g>
+<g class="ninja">
+  <g class="leg-l">
+    <rect x="9"  y="128" width="10" height="27" rx="4" fill="#1c1917"/>
+    <rect x="6"  y="152" width="14" height="6"  rx="3" fill="#292524"/>
+  </g>
+  <g class="leg-r">
+    <rect x="21" y="128" width="10" height="27" rx="4" fill="#1c1917"/>
+    <rect x="19" y="152" width="14" height="6"  rx="3" fill="#292524"/>
+  </g>
+  <rect x="5" y="96" width="30" height="35" rx="6" fill="#1c1917"/>
+  <rect x="5" y="118" width="30" height="6"  rx="2" fill="#dc2626"/>
+  <polygon points="20,99 14,111 26,111" fill="#292524"/>
+  <g class="arm-l">
+    <rect x="-4" y="99" width="9"  height="22" rx="4" fill="#1c1917"/>
+    <rect x="-5" y="118" width="11" height="6" rx="3" fill="#292524"/>
+  </g>
+  <g class="arm-r">
+    <rect x="35" y="99" width="9"  height="22" rx="4" fill="#1c1917"/>
+    <rect x="34" y="118" width="11" height="6" rx="3" fill="#292524"/>
+  </g>
+  <rect x="14" y="87" width="12" height="10" rx="2" fill="#a16207"/>
+  <circle cx="20" cy="78" r="16" fill="#1c1917"/>
+  <rect x="8"  y="71" width="24" height="10" rx="3" fill="#292524"/>
+  <g class="eyes">
+    <ellipse cx="13" cy="76" rx="3.8" ry="3" fill="white"/>
+    <ellipse cx="27" cy="76" rx="3.8" ry="3" fill="white"/>
+    <line x1="9"  y1="73" x2="17" y2="74.5" stroke="#0d1117" stroke-width="2" stroke-linecap="round"/>
+    <line x1="23" y1="74.5" x2="31" y2="73" stroke="#0d1117" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="14" cy="76" r="2.5" fill="#0d1117"/>
+    <circle cx="28" cy="76" r="2.5" fill="#0d1117"/>
+    <circle cx="14.8" cy="75.2" r="0.8" fill="white"/>
+    <circle cx="28.8" cy="75.2" r="0.8" fill="white"/>
+  </g>
+  <rect x="4"  y="64" width="32" height="6" rx="3" fill="#dc2626"/>
+  <rect x="34" y="62" width="9"  height="4" rx="2" fill="#b91c1c"/>
+  <line x1="36" y1="66" x2="45" y2="74" stroke="#b91c1c" stroke-width="2.5" stroke-linecap="round"/>
+  <g class="lupa-grp">
+    <line x1="-3" y1="122" x2="-16" y2="143" stroke="#6b7280" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="-3" cy="111" r="13" fill="none" stroke="#9ca3af" stroke-width="2.8"/>
+    <circle cx="-3" cy="111" r="11" fill="#3b82f6" opacity="0.12"/>
+    <line x1="-10" y1="102" x2="-6" y2="99" stroke="white" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  <g class="sword-l">
+    <rect x="6"  y="58" width="5" height="48" rx="2" fill="#e5e7eb"/>
+    <rect x="6"  y="58" width="2" height="48" rx="1" fill="white" opacity="0.55"/>
+    <ellipse cx="8.5" cy="106" rx="9" ry="4" fill="#d97706"/>
+    <rect x="5"  y="106" width="7" height="16" rx="2" fill="#1c1917"/>
+    <line x1="6"  y1="110" x2="12" y2="110" stroke="#d97706" stroke-width="1.2"/>
+    <line x1="6"  y1="114" x2="12" y2="114" stroke="#d97706" stroke-width="1.2"/>
+    <line x1="6"  y1="118" x2="12" y2="118" stroke="#d97706" stroke-width="1.2"/>
+  </g>
+  <g class="sword-r">
+    <rect x="29" y="58" width="5" height="48" rx="2" fill="#e5e7eb"/>
+    <rect x="31" y="58" width="2" height="48" rx="1" fill="white" opacity="0.55"/>
+    <ellipse cx="31.5" cy="106" rx="9" ry="4" fill="#d97706"/>
+    <rect x="28" y="106" width="7" height="16" rx="2" fill="#1c1917"/>
+    <line x1="29" y1="110" x2="35" y2="110" stroke="#d97706" stroke-width="1.2"/>
+    <line x1="29" y1="114" x2="35" y2="114" stroke="#d97706" stroke-width="1.2"/>
+    <line x1="29" y1="118" x2="35" y2="118" stroke="#d97706" stroke-width="1.2"/>
+  </g>
+</g>
+<g class="lupa-floor" transform="translate(158, 148)">
+  <line x1="0" y1="0" x2="-10" y2="11" stroke="#4b5563" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="0" cy="0" r="8" fill="none" stroke="#4b5563" stroke-width="2"/>
+</g>
+<text x="310" y="180" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#374151">&#x1F977; no bug survives &#xB7; eddytest365</text>
+</svg>
