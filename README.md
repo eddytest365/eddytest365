@@ -4,6 +4,14 @@
 
 <br/>
 
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-7.4+-0A9EDC?style=flat&logo=pytest&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat&logo=typescript&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![OpenCode](https://img.shields.io/badge/OpenCode-AI%20Coding-6366F1?style=flat&logo=openai&logoColor=white)
+
+<br/>
+
 > *"Quality is not an act, it is a habit."* — Aristotle
 
 </div>
@@ -12,7 +20,7 @@
 
 ## 👨‍💻 Sobre mí
 
-Soy **Eddy**, QA Engineer trabajando en Master, en el ecosistema **Masterhop** — plataforma e-commerce con módulos de IA conversacional, gestión de órdenes, logística y centro de ayuda inteligente.
+Soy **Eddy**, QA Engineer trabajando en el ecosistema **Mastershop** — plataforma e-commerce con módulos de IA conversacional, gestión de órdenes, logística y centro de ayuda inteligente.
 
 Me especializo en **testing de APIs REST**, **automatización con Python/pytest**, y en documentar bugs con la evidencia suficiente para que no quede ninguna duda.
 
@@ -20,11 +28,20 @@ Me especializo en **testing de APIs REST**, **automatización con Python/pytest*
 eddy = {
     "rol":       "QA Engineer",
     "empresa":   "Mastershop",
-    "stack":     ["pytest", "WebdriverIO", "Postman", "TypeScript", "Python"],
+    "stack":     ["pytest", "WebdriverIO", "Postman", "TypeScript", "Python", "Claude", "OpenCode"],
     "enfoque":   ["API Testing", "E2E Automation", "Bug Reporting", "Security QA"],
     "actitud":   "Si pasa por mis manos, tiene que funcionar."
 }
 ```
+
+---
+
+## 🎯 Actualmente
+
+- 🧪 Construyendo suite de **53 tests** automatizados para el módulo **Agente IA** de Mastershop
+- 🐛 **12 bugs documentados** con evidencia — 3 críticos ya en backlog
+- 📚 Profundizando en security testing: XSS, SQL Injection, aislamiento multi-tenant
+- 🤖 Usando **Claude + OpenCode** como parte activa del flujo de QA
 
 ---
 
@@ -33,9 +50,6 @@ eddy = {
 <div align="center">
 
 [![My Skills](https://skillicons.dev/icons?i=python,typescript,nodejs,postgres,docker,github,postman,vscode&perline=8)](https://skillicons.dev)
-
-![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![OpenCode](https://img.shields.io/badge/OpenCode-AI%20Coding-6366F1?style=flat&logo=openai&logoColor=white)
 
 </div>
 
@@ -93,7 +107,7 @@ Documentación de **casos de prueba** y control de cambios para flujos QA manual
 
 ---
 
-## 📊 Actividad
+## 📊 GitHub Activity
 
 <div align="center">
 
@@ -105,9 +119,9 @@ Documentación de **casos de prueba** y control de cambios para flujos QA manual
 
 <div align="center">
 
-**¿Tienes un proyecto de QA o quieres colaborar?**
+**QA Engineer disponible para colaborar — si tiene bugs, los encuentro.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eddy-saenz-021200al)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eddy-saenz-021200al)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU-EMAIL)
 
 </div>
