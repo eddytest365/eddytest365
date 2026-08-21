@@ -12,7 +12,7 @@
 
 ## 👨‍💻 Sobre mí
 
-Soy **Eddy**, QA Engineer trabajando en el ecosistema **Mastershop** — plataforma e-commerce con módulos de IA conversacional, gestión de órdenes, logística y centro de ayuda inteligente.
+Soy **Eddy**, QA Engineer trabajando en Master, en el ecosistema **Masterhop** — plataforma e-commerce con módulos de IA conversacional, gestión de órdenes, logística y centro de ayuda inteligente.
 
 Me especializo en **testing de APIs REST**, **automatización con Python/pytest**, y en documentar bugs con la evidencia suficiente para que no quede ninguna duda.
 
