@@ -8,44 +8,27 @@
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-7.4+-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat&logo=typescript&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![OpenCode](https://img.shields.io/badge/OpenCode-AI%20Coding-6366F1?style=flat&logo=openai&logoColor=white)
-
-<br/>
-
 > *"Quality is not an act, it is a habit."* — Aristotle
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mí
+## 👨‍💻 About Me
 
-Soy **Eddy**, QA Engineer trabajando en el ecosistema **Mastershop** — plataforma e-commerce con módulos de IA conversacional, gestión de órdenes, logística y centro de ayuda inteligente.
+I'm **Eddy**, a QA Engineer working within the **Mastershop** ecosystem — an e-commerce platform with AI-powered conversational modules, order management, logistics, and an intelligent help center.
 
-Me especializo en **testing de APIs REST**, **automatización con Python/pytest**, y en documentar bugs con la evidencia suficiente para que no quede ninguna duda.
+I specialize in **REST API testing**, **Python/pytest automation**, and documenting bugs with enough evidence to leave no room for doubt.
 
 ```python
 eddy = {
-    "rol":       "QA Engineer",
-    "empresa":   "Mastershop",
+    "role":      "QA Engineer",
+    "company":   "Mastershop",
     "stack":     ["pytest", "WebdriverIO", "Postman", "TypeScript", "Python", "Claude", "OpenCode"],
-    "enfoque":   ["API Testing", "E2E Automation", "Bug Reporting", "Security QA"],
-    "actitud":   "Si pasa por mis manos, tiene que funcionar."
+    "focus":     ["API Testing", "E2E Automation", "Bug Reporting", "Security QA"],
+    "mindset":   "If it goes through my hands, it has to work."
 }
 ```
-
----
-
-## 🎯 Actualmente
-
-- 🧪 Construyendo suite de **53 tests** automatizados para el módulo **Agente IA** de Mastershop
-- 🐛 **12 bugs documentados** con evidencia — 3 críticos ya en backlog
-- 📚 Profundizando en security testing: XSS, SQL Injection, aislamiento multi-tenant
-- 🤖 Usando **Claude + OpenCode** como parte activa del flujo de QA
 
 ---
 
@@ -57,61 +40,66 @@ eddy = {
 
 </div>
 
-| Área | Stack |
+| Area | Stack |
 |---|---|
 | **API Automation** | Python · pytest · requests · python-dotenv |
 | **E2E Automation** | WebdriverIO · Selenium · Cucumber · TypeScript · Allure |
-| **Testing manual** | Postman · Chrome DevTools · cURL |
-| **Documentación** | BRD/DRD · Bug Reports · Test Plans |
-| **Seguridad** | XSS · SQL Injection · Aislamiento multi-tenant |
-| **IA / LLMs** | Claude (Anthropic) · OpenCode |
+| **Manual Testing** | Postman · Chrome DevTools · cURL |
+| **Documentation** | BRD/DRD · Bug Reports · Test Plans |
+| **Security** | XSS · SQL Injection · Multi-tenant Isolation |
+| **AI / LLMs** | Claude (Anthropic) · OpenCode · RAG · OpenAI |
 
 ---
-
-## 🚀 Proyectos
+## 🚀 Projects
 
 ### 🤖 [mastershop-agentes-ia-qa](https://github.com/eddytest365/mastershop-agentes-ia-qa)
-**Suite de automatización** para el módulo Agentes IA (WhatsApp Business + inbox unificado).
-`53 tests` · `12 bugs documentados` · Autenticación · Idempotencia · Seguridad multi-tenant
+**Automation suite** for the AI Agents module (WhatsApp Business + unified inbox).
+`53 tests` · `12 documented bugs` · Auth · Idempotency · Multi-tenant Security
 
 ---
 
-### 🛒 [MasterShop-Automation](https://github.com/ByMrFireball/MasterShop-Automation) *(colaborador)*
-**Pruebas E2E** para la plataforma Mastershop.
+### 🛒 [MasterShop-Automation](https://github.com/ByMrFireball/MasterShop-Automation) *(contributor)*
+**E2E testing** for the Mastershop platform.
 `WebdriverIO` · `Selenium` · `Cucumber` · `TypeScript` · `Allure Report` · Page Object Model
 
 ---
 
-### 💬 [mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center) *(colaborador)*
-**Q&A inteligente** con búsqueda vectorial RAG para artículos de soporte.
-`Next.js 14` · `pgvector` · `OpenAI embeddings` · `GPT-4o Mini` · 60 artículos indexados
+### 💬 [mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center) *(contributor)*
+**Intelligent Q&A** with RAG vector search for support articles.
+`Next.js 14` · `pgvector` · `OpenAI embeddings` · `GPT-4o Mini` · 60 indexed articles
 
 ---
 
 ### 🤖 [EddyBot](https://github.com/eddytest365/EddyBot)
-**Bot de Slack con IA** que responde preguntas usando documentación local (RAG).
-`Node.js` · `ChromaDB` · `OpenAI` · Desplegado en Northflank
+**AI-powered Slack bot** that answers questions using local documentation (RAG).
+`Node.js` · `ChromaDB` · `OpenAI` · Deployed on Northflank
 
 ---
 
 ### 📋 [Casos-de-Testing](https://github.com/eddytest365/Casos-de-Testing)
-Documentación de **casos de prueba** y control de cambios para flujos QA manual.
+**Test case documentation** and change tracking for manual QA flows.
 
 ---
 
-## 🐛 Bugs reales que he encontrado
+## 🐛 Real Bugs I've Found
 
-| Severidad | Bug |
+| Severity | Bug |
 |---|---|
-| 🔴 Crítico | Loop infinito de 401 por falta de refresh token |
-| 🔴 Crítico | Imágenes no entregadas ni renderizadas en ninguna dirección |
-| 🔴 Crítico | Estado de error engañoso (`META_SDK_LOAD_FAILED` vs estado real) |
-| 🟠 Alto | ID numérico mostrado en UI en lugar del nombre del usuario |
-| 🟡 Medio | Búsqueda case-sensitive genera falsos negativos en inbox |
+| 🔴 Critical | Infinite 401 loop due to missing refresh token |
+| 🔴 Critical | Images not delivered or rendered in any direction |
+| 🔴 Critical | Misleading error state (`META_SDK_LOAD_FAILED` vs actual state) |
+| 🟠 High | Numeric ID shown in UI instead of username |
+| 🟡 Medium | Case-sensitive search produces false negatives in inbox |
 
 ---
 
-## 📊 GitHub Activity
+## 📊 GitHub Stats
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=eddytest365&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+
+</div>
 
 <div align="center">
 
@@ -123,9 +111,9 @@ Documentación de **casos de prueba** y control de cambios para flujos QA manual
 
 <div align="center">
 
-**QA Engineer disponible para colaborar — si tiene bugs, los encuentro.**
+**QA Engineer available to collaborate — if you have bugs, I find them.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eddy-saenz-021200al)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU-EMAIL)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:plataformas1@master.la)
 
 </div>
