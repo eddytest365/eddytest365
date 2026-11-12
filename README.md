@@ -24,7 +24,7 @@ I specialize in **REST API testing**, **Python/pytest automation**, and document
 eddy = {
     "role":      "QA Engineer",
     "company":   "Mastershop",
-    "stack":     ["pytest", "WebdriverIO", "Postman", "TypeScript", "Python", "Claude", "OpenCode"],
+    "stack":     ["pytest", "WebdriverIO", "Playwright", "Postman", "TypeScript", "Python", "Claude", "OpenCode"],
     "focus":     ["API Testing", "E2E Automation", "Bug Reporting", "Security QA"],
     "mindset":   "If it goes through my hands, it has to work."
 }
@@ -42,8 +42,8 @@ eddy = {
 
 | Area | Stack |
 |---|---|
-| **API Automation** | Python · pytest · requests · python-dotenv |
-| **E2E Automation** | WebdriverIO · Selenium · Cucumber · TypeScript · Allure |
+| **API Automation** | Python · pytest · requests · JSON Schema · GitHub Actions |
+| **E2E Automation** | WebdriverIO · Selenium · Playwright · Cucumber · TypeScript · Allure |
 | **Manual Testing** | Postman · Chrome DevTools · cURL |
 | **Documentation** | BRD/DRD · Bug Reports · Test Plans |
 | **Security** | XSS · SQL Injection · Multi-tenant Isolation |
@@ -52,32 +52,45 @@ eddy = {
 ---
 ## 🚀 Projects
 
-### 🤖 [mastershop-agentes-ia-qa](https://github.com/eddytest365/mastershop-agentes-ia-qa)
-**Automation suite** for the AI Agents module (WhatsApp Business + unified inbox).
+### 🧪 [api-test-automation-pytest](https://github.com/eddytest365/api-test-automation-pytest)
+**API test suite** against a public REST API — clone it and run it, no credentials needed.
+`pytest` · `requests` · `JSON Schema` · `Allure` · `GitHub Actions` · 32 tests
+
+---
+
+### 🤖 mastershop-ai-agents-api-tests *(private — company code)*
+**API automation suite** for the AI Agents module (WhatsApp Business + unified inbox).
 `53 tests` · `12 documented bugs` · Auth · Idempotency · Multi-tenant Security
 
 ---
 
-### 🛒 [MasterShop-Automation](https://github.com/ByMrFireball/MasterShop-Automation) *(contributor)*
+### 📊 qa-control-center *(private)*
+**QA traceability platform** — epics, test cases, bugs and pull requests in one place, synced with Jira.
+`FastAPI` · `SQLAlchemy` · `React` · `TypeScript` · `115 backend tests`
+
+---
+
+### 🛒 MasterShop-Automation *(private — contributor)*
 **E2E testing** for the Mastershop platform.
 `WebdriverIO` · `Selenium` · `Cucumber` · `TypeScript` · `Allure Report` · Page Object Model
 
 ---
 
-### 💬 [mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center) *(contributor)*
+### 🧠 qa-agent-opencode *(private)*
+**AI QA agent** that turns requirement docs into test cases and bug reports, plus an E2E suite.
+`OpenCode` · `Playwright` · `WebdriverIO` · `Cucumber`
+
+---
+
+### 💬 eddybot-slack-docs *(private)*
+**Slack bot** that answers team questions from the internal documentation.
+`Node.js` · `Express` · `Slack API` · `OpenAI` · `Docker` · Deployed on Northflank
+
+---
+
+### 📚 [mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center) *(contributor)*
 **Intelligent Q&A** with RAG vector search for support articles.
 `Next.js 14` · `pgvector` · `OpenAI embeddings` · `GPT-4o Mini` · 60 indexed articles
-
----
-
-### 🤖 [EddyBot](https://github.com/eddytest365/EddyBot)
-**AI-powered Slack bot** that answers questions using local documentation (RAG).
-`Node.js` · `ChromaDB` · `OpenAI` · Deployed on Northflank
-
----
-
-### 📋 [Casos-de-Testing](https://github.com/eddytest365/Casos-de-Testing)
-**Test case documentation** and change tracking for manual QA flows.
 
 ---
 
