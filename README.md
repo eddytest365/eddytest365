@@ -52,13 +52,13 @@ eddy = {
 ---
 ## 🚀 Projects
 
-### 🧪 [Python-Api-Automation](https://github.com/eddytest365/Python-Api-Automation)
+### 🧪 [api-test-automation-pytest](https://github.com/eddytest365/api-test-automation-pytest)
 **API test suite** against a public REST API — clone it and run it, no credentials needed.
 `pytest` · `requests` · `JSON Schema` · `Allure` · `GitHub Actions` · 32 tests
 
 ---
 
-### 🤖 mastershop-agentes-ia-qa *(private — company code)*
+### 🤖 mastershop-ai-agents-api-tests *(private — company code)*
 **API automation suite** for the AI Agents module (WhatsApp Business + unified inbox).
 `53 tests` · `12 documented bugs` · Auth · Idempotency · Multi-tenant Security
 
@@ -76,13 +76,13 @@ eddy = {
 
 ---
 
-### 🧠 Agente-QA *(private)*
+### 🧠 qa-agent-opencode *(private)*
 **AI QA agent** that turns requirement docs into test cases and bug reports, plus an E2E suite.
 `OpenCode` · `Playwright` · `WebdriverIO` · `Cucumber`
 
 ---
 
-### 💬 EddyBot *(private)*
+### 💬 eddybot-slack-docs *(private)*
 **Slack bot** that answers team questions from the internal documentation.
 `Node.js` · `Express` · `Slack API` · `OpenAI` · `Docker` · Deployed on Northflank
 
