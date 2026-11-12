@@ -6,29 +6,45 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=2F81F7&center=true&vCenter=true&width=600&lines=QA+Engineer+%7C+API+Testing+%26+E2E+Automation;Finding+bugs+before+users+do+%F0%9F%90%9B" alt="Typing SVG" />
 
-<br/>
-
-> *"Quality is not an act, it is a habit."* — Aristotle
-
 </div>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm **Eddy**, a QA Engineer working within the **Mastershop** ecosystem — an e-commerce platform with AI-powered conversational modules, order management, logistics, and an intelligent help center.
+I'm **Eddy**, a QA Engineer with **2 years of experience**, currently at **Mastershop**, an e-commerce and dropshipping platform. I test REST APIs, automate them with **Python and pytest**, build E2E suites with **WebdriverIO and Playwright**, and write bug reports with enough evidence to leave no room for doubt.
 
-I specialize in **REST API testing**, **Python/pytest automation**, and documenting bugs with enough evidence to leave no room for doubt.
+My rule: *if it goes through my hands, it has to work.*
 
-```python
-eddy = {
-    "role":      "QA Engineer",
-    "company":   "Mastershop",
-    "stack":     ["pytest", "WebdriverIO", "Playwright", "Postman", "TypeScript", "Python", "Claude", "OpenCode"],
-    "focus":     ["API Testing", "E2E Automation", "Bug Reporting", "Security QA"],
-    "mindset":   "If it goes through my hands, it has to work."
-}
-```
+📍 Colombia · Remote &nbsp;|&nbsp; 🎓 Industrial Engineer
+
+---
+
+## ⭐ Featured Project
+
+### 🧪 [api-test-automation-pytest](https://github.com/eddytest365/api-test-automation-pytest)
+
+[![API tests](https://github.com/eddytest365/api-test-automation-pytest/actions/workflows/tests.yml/badge.svg)](https://github.com/eddytest365/api-test-automation-pytest/actions/workflows/tests.yml)
+
+**API test suite** against a public REST API — clone it and run it, no credentials needed.
+32 tests covering CRUD, filters, negative cases and JSON Schema contract validation, running on every push with GitHub Actions.
+
+`pytest` · `requests` · `JSON Schema` · `Allure` · `GitHub Actions`
+
+---
+
+## 🚀 More Work
+
+Most of what I build belongs to my employer, so these repositories are private. Happy to walk through any of them in an interview.
+
+| Project | What it is | Stack |
+|---|---|---|
+| **mastershop-ai-agents-api-tests** | API automation suite for the AI Agents module (WhatsApp Business + unified inbox): 53 tests on auth, idempotency and multi-tenant isolation, 12 bugs documented | pytest · requests |
+| **qa-control-center** | QA traceability platform: epics, test cases, bugs and pull requests in one place, synced with Jira, with 115 backend tests | FastAPI · SQLAlchemy · React · TypeScript |
+| **MasterShop-Automation** *(contributor)* | E2E testing for the Mastershop platform with BDD and Page Object Model | WebdriverIO · Selenium · Cucumber · TypeScript · Allure |
+| **qa-agent-opencode** | AI QA agent that turns requirement docs into test cases and bug reports, plus an E2E suite | OpenCode · Playwright · WebdriverIO · Cucumber |
+| **eddybot-slack-docs** | Slack bot that answers team questions from the internal documentation | Node.js · Express · Slack API · OpenAI · Docker |
+| **[mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center)** *(contributor)* | Q&A over support articles with RAG vector search | Next.js · pgvector · OpenAI |
 
 ---
 
@@ -42,55 +58,12 @@ eddy = {
 
 | Area | Stack |
 |---|---|
-| **API Automation** | Python · pytest · requests · JSON Schema · GitHub Actions |
-| **E2E Automation** | WebdriverIO · Selenium · Playwright · Cucumber · TypeScript · Allure |
-| **Manual Testing** | Postman · Chrome DevTools · cURL |
-| **Documentation** | BRD/DRD · Bug Reports · Test Plans |
-| **Security** | XSS · SQL Injection · Multi-tenant Isolation |
-| **AI / LLMs** | Claude (Anthropic) · OpenCode · RAG · OpenAI |
-
----
-## 🚀 Projects
-
-### 🧪 [api-test-automation-pytest](https://github.com/eddytest365/api-test-automation-pytest)
-**API test suite** against a public REST API — clone it and run it, no credentials needed.
-`pytest` · `requests` · `JSON Schema` · `Allure` · `GitHub Actions` · 32 tests
-
----
-
-### 🤖 mastershop-ai-agents-api-tests *(private — company code)*
-**API automation suite** for the AI Agents module (WhatsApp Business + unified inbox).
-`53 tests` · `12 documented bugs` · Auth · Idempotency · Multi-tenant Security
-
----
-
-### 📊 qa-control-center *(private)*
-**QA traceability platform** — epics, test cases, bugs and pull requests in one place, synced with Jira.
-`FastAPI` · `SQLAlchemy` · `React` · `TypeScript` · `115 backend tests`
-
----
-
-### 🛒 MasterShop-Automation *(private — contributor)*
-**E2E testing** for the Mastershop platform.
-`WebdriverIO` · `Selenium` · `Cucumber` · `TypeScript` · `Allure Report` · Page Object Model
-
----
-
-### 🧠 qa-agent-opencode *(private)*
-**AI QA agent** that turns requirement docs into test cases and bug reports, plus an E2E suite.
-`OpenCode` · `Playwright` · `WebdriverIO` · `Cucumber`
-
----
-
-### 💬 eddybot-slack-docs *(private)*
-**Slack bot** that answers team questions from the internal documentation.
-`Node.js` · `Express` · `Slack API` · `OpenAI` · `Docker` · Deployed on Northflank
-
----
-
-### 📚 [mastershop-help-center](https://github.com/LuisFR-23/mastershop-help-center) *(contributor)*
-**Intelligent Q&A** with RAG vector search for support articles.
-`Next.js 14` · `pgvector` · `OpenAI embeddings` · `GPT-4o Mini` · 60 indexed articles
+| **API Automation** | Python · pytest · requests · JSON Schema · Postman |
+| **E2E Automation** | WebdriverIO · Selenium · Playwright · Cucumber · TypeScript · Page Object Model |
+| **CI & Reporting** | GitHub Actions · Docker · Allure |
+| **Test Design** | Test plans and cases from BRD/DRD · Bug reports · Jira |
+| **Security Testing** | XSS · SQL Injection · Multi-tenant isolation |
+| **AI for QA** | Claude · OpenCode · OpenAI · RAG |
 
 ---
 
@@ -98,27 +71,11 @@ eddy = {
 
 | Severity | Bug |
 |---|---|
-| 🔴 Critical | Infinite 401 loop due to missing refresh token |
-| 🔴 Critical | Images not delivered or rendered in any direction |
-| 🔴 Critical | Misleading error state (`META_SDK_LOAD_FAILED` vs actual state) |
-| 🟠 High | Numeric ID shown in UI instead of username |
-| 🟡 Medium | Case-sensitive search produces false negatives in inbox |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=eddytest365&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=eddytest365&theme=github-compact&hide_border=true&area=true)
-
-</div>
+| 🔴 Critical | Infinite 401 loop caused by a missing refresh token |
+| 🔴 Critical | Images not delivered or rendered in either direction of a conversation |
+| 🔴 Critical | Error screen reporting a different failure than the one that actually happened |
+| 🟠 High | Numeric ID shown in the UI instead of the username |
+| 🟡 Medium | Case-sensitive search producing false negatives in the inbox |
 
 ---
 
