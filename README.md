@@ -12,9 +12,11 @@
 
 ## 👨‍💻 About Me
 
-I'm **Eddy**, a QA Engineer at **Mastershop**, an e-commerce and dropshipping platform. I test REST APIs, automate them with **Python and pytest**, build E2E suites with **WebdriverIO and Playwright**, and write bug reports with enough evidence to leave no room for doubt.
+I'm **Eddy**, a QA Engineer with **2 years of experience**, currently at **Mastershop**, an e-commerce and dropshipping platform. I test REST APIs, automate them with **Python and pytest**, build E2E suites with **WebdriverIO and Playwright**, and write bug reports with enough evidence to leave no room for doubt.
 
 My rule: *if it goes through my hands, it has to work.*
+
+📍 Colombia · Remote &nbsp;|&nbsp; 🎓 Industrial Engineer
 
 ---
 
